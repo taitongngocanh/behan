@@ -82,7 +82,7 @@
             const flowerInterval = setInterval(() => {
                 growGarden();
                 flowerCount++;
-                if (flowerCount >= 10) {
+                if (flowerCount >= 30) {
                     clearInterval(flowerInterval); // Dừng sau 10 lần
                 }
             }, numOfFlowers * 150 + 100);
